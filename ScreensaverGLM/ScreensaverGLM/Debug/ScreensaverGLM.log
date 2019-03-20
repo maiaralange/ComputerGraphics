@@ -1,0 +1,35 @@
+﻿  ScreensaverGLM.cpp
+c:\users\i868346\source\repos\screensaverglm\screensaverglm\screensaverglm.cpp(105): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\i868346\source\repos\screensaverglm\screensaverglm\screensaverglm.cpp(107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+ScreensaverGLM.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function "private: void __thiscall GLEWWrapper::initializeGLEW(void)" (?initializeGLEW@GLEWWrapper@@AAEXXZ)
+ScreensaverGLM.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "private: void __thiscall GLFWWrapper::initializeGLFW(void)" (?initializeGLFW@GLFWWrapper@@AAEXXZ)
+ScreensaverGLM.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "private: void __thiscall GLFWWrapper::setWindowHints(void)" (?setWindowHints@GLFWWrapper@@AAEXXZ)
+ScreensaverGLM.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "private: void __thiscall GLFWWrapper::createWindow(void)" (?createWindow@GLFWWrapper@@AAEXXZ)
+ScreensaverGLM.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+ScreensaverGLM.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function _main
+ScreensaverGLM.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "private: void __thiscall GLFWWrapper::createWindow(void)" (?createWindow@GLFWWrapper@@AAEXXZ)
+ScreensaverGLM.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewDeleteShader
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramInfoLog
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramiv
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewGetUniformLocation
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewUniformMatrix4fv
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+ScreensaverGLM.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+C:\Users\I868346\Documents\UNISINOS\7º semestre\Computação Gráfica\Dependências\Libs\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\I868346\Documents\UNISINOS\7º semestre\Computação Gráfica\Dependências\Libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\I868346\source\repos\ScreensaverGLM\Debug\ScreensaverGLM.exe : fatal error LNK1120: 29 unresolved externals

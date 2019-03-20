@@ -1,0 +1,4 @@
+﻿  ScreensaverGLM.cpp
+c:\users\i868346\source\repos\screensaverglm\screensaverglm\screensaverglm.cpp(88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\i868346\source\repos\screensaverglm\screensaverglm\screensaverglm.cpp(90): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  ScreensaverGLM.vcxproj -> C:\Users\I868346\source\repos\ScreensaverGLM\x64\Debug\ScreensaverGLM.exe

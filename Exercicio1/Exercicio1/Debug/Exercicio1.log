@@ -1,0 +1,33 @@
+﻿  Exercicio1.cpp
+c:\users\i868346\documents\unisinos\7º semestre\computação gráfica\exercicio1\exercicio1\exercicio1.cpp(137): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+Exercicio1.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function _main
+Exercicio1.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+Exercicio1.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+Exercicio1.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+Exercicio1.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+Exercicio1.obj : error LNK2019: unresolved external symbol _glfwWaitEvents referenced in function _main
+Exercicio1.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+Exercicio1.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewDeleteShader
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramInfoLog
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramiv
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+Exercicio1.obj : error LNK2001: unresolved external symbol __imp__glewExperimental
+C:\Users\I868346\Documents\UNISINOS\7º semestre\Computação Gráfica\Dependências\Libs\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\I868346\Documents\UNISINOS\7º semestre\Computação Gráfica\Dependências\Libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\I868346\Documents\UNISINOS\7º semestre\Computação Gráfica\Exercicio1\Debug\Exercicio1.exe : fatal error LNK1120: 28 unresolved externals

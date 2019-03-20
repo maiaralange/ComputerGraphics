@@ -1,0 +1,4 @@
+﻿  Screensaver.cpp
+c:\users\i868346\documents\unisinos\7º semestre\computação gráfica\exercicio1\screensaver\screensaver.cpp(105): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\i868346\documents\unisinos\7º semestre\computação gráfica\exercicio1\screensaver\screensaver.cpp(107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Screensaver.vcxproj -> C:\Users\I868346\Documents\UNISINOS\7º semestre\Computação Gráfica\Exercicio1\x64\Debug\Screensaver.exe
