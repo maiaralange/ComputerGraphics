@@ -3,7 +3,12 @@ using namespace std;
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <vector>
+
 #include <GLM/vec2.hpp>
+#include <GLM/vec3.hpp>
+#include <GLM/mat4x4.hpp>
+#include <GLM/gtc/matrix_transform.hpp>
+#include <GLM/gtc/type_ptr.hpp>
 
 #include "Shader.h"
 #include "GLFWWrapper.h"
@@ -31,7 +36,7 @@ vector<float> colors = {
 	0, 0, 1
 };
 
-float matrix[] = {
+glm::mat4 matrix = {
 	1.0, 0.0, 0.0, 0.0,
 	0.0, 1.0, 0.0, 0.0,
 	0.0, 0.0, 1.0, 0.0,
@@ -85,13 +90,15 @@ int main() {
 			ySpeed = rout[1];
 		}
 
-		matrix[12] = elapsedSeconds * xSpeed + xLastPosition;
-		xLastPosition = matrix[12];
-		matrix[13] = elapsedSeconds * ySpeed + yLastPosition;
-		yLastPosition = matrix[13];
+		xLastPosition = elapsedSeconds * xSpeed + xLastPosition;
+		yLastPosition = elapsedSeconds * ySpeed + yLastPosition;
 
-		glUniformMatrix4fv(matrixLocation, 1, GL_FALSE, matrix);
+		glm::vec3 newPosition = { xLastPosition, yLastPosition, 0 };
+		glm::mat4 newMatrix = glm::translate(matrix, newPosition);
+
+		glUniformMatrix4fv(matrixLocation, 1, GL_FALSE, glm::value_ptr(newMatrix));
 		glBindVertexArray(vao.vao);
+
 		glDrawArrays(GL_TRIANGLES, 0, 6);
 		glfwSwapBuffers(glfwWrapper.window);
 	}

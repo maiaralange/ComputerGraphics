@@ -1,4 +1,5 @@
 ﻿  ScreensaverGLM.cpp
-c:\users\i868346\source\repos\screensaverglm\screensaverglm\screensaverglm.cpp(88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\i868346\source\repos\screensaverglm\screensaverglm\screensaverglm.cpp(90): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  ScreensaverGLM.vcxproj -> C:\Users\I868346\source\repos\ScreensaverGLM\x64\Debug\ScreensaverGLM.exe
+c:\users\i868346\documents\unisinos\7º semestre\computação gráfica\computergraphics\screensaverglm\screensaverglm\screensaverglm.cpp(93): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\i868346\documents\unisinos\7º semestre\computação gráfica\computergraphics\screensaverglm\screensaverglm\screensaverglm.cpp(94): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  ScreensaverGLM.vcxproj -> C:\Users\I868346\Documents\UNISINOS\7º semestre\Computação Gráfica\ComputerGraphics\ScreensaverGLM\x64\Debug\ScreensaverGLM.exe
